@@ -1,0 +1,16 @@
+
+.coursesList::-webkit-scrollbar {
+  width: 5px;
+}
+  
+.coursesList::-webkit-scrollbar-track {
+  background: transparent; 
+}
+   
+.coursesList::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+.coursesList::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
