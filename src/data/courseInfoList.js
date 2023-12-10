@@ -124,7 +124,7 @@ export const popularCourses = [
         id: 1,
         path: 'android',
         star: '3',
-        image: '../assets/Android.jpg',
+        image: '/assets/Android.jpg',
         title: 'Android App Developement',
         author: 'Himanshu Sangwan',
         rating: '2 Ratings',
@@ -134,7 +134,7 @@ export const popularCourses = [
         id: 2,
         path: 'java',
         star: '4',
-        image: '../assets/Java.jpg',
+        image: '/assets/Java.jpg',
         title: 'Java',
         author: 'Himanshu Sangwan',
         rating: '2 Ratings',
@@ -144,7 +144,7 @@ export const popularCourses = [
         id: 3,
         path: 'html',
         star: '4',
-        image: '../assets/HTML.jpg',
+        image: '/assets/HTML.jpg',
         title: 'HTML',
         author: 'Himanshu Sangwan',
         rating: '1 Ratings',
@@ -154,7 +154,7 @@ export const popularCourses = [
         id: 4,
         path: 'javascript',
         star: '4',
-        image: '../assets/JS.jpg',
+        image: '/assets/JS.jpg',
         title: 'Introduction to JavaScript Programming',
         author: 'Himanshu Sangwan',
         rating: '2 Ratings',
@@ -168,7 +168,7 @@ export const studendLearning = [
         id: 1,
         path: 'python',
         star: '4',
-        image: '../assets/Python.jpg',
+        image: '/assets/Python.jpg',
         title: 'Python Basic 2023',
         author: 'Himanshu Sangwan',
         rating: '2 Ratings',
@@ -178,7 +178,7 @@ export const studendLearning = [
         id: 2,
         path: 'javascript-2023',
         star: '4.5',
-        image: '../assets/JavaScript.png',
+        image: '/assets/JavaScript.png',
         title: 'JavaScript 2023',
         author: 'Himanshu Sangwan',
         rating: '2 Ratings',
@@ -189,16 +189,16 @@ export const studendLearning = [
 
 
 export const androidInfo = {
-        title : 'Android App Developement',
-        subHeading : 'Learn how to build Android applications using Java or Kotlin. Understand the Android development ecosystem, UI design, data storage, and integration with device features.',
-        reviews: '(2 Reviews)',
-        enrolled: '12 students enrolled',
-        creator: 'Himanshu Sangwan',
-        date: 'October 6, 2023',
-        language: 'Eng',
-        image: '../assets/Android.jpg',
-        price: '₹1199',
-        toLearn: 'Mobile Game Development, Android App Development, Java and Kotlin'
+    title : 'Android App Developement',
+    subHeading : 'Learn how to build Android applications using Java or Kotlin. Understand the Android development ecosystem, UI design, data storage, and integration with device features.',
+    reviews: '(2 Reviews)',
+    enrolled: '12 students enrolled',
+    creator: 'Himanshu Sangwan',
+    date: 'October 6, 2023',
+    language: 'Eng',
+    image: '/assets/Android.jpg',
+    price: '₹1199',
+    toLearn: 'Mobile Game Development, Android App Development, Java and Kotlin'
 }
 
 export const JavaInfo = {
@@ -209,7 +209,7 @@ export const JavaInfo = {
     creator: 'Himanshu Sangwan',
     date: 'October 6, 2023',
     language: 'Eng',
-    image: '../assets/Java.jpg',
+    image: '/assets/Java.jpg',
     price: '₹1199',
     toLearn: 'Foundation in Java Programming, Real-World Application Development, Versatility and Market Demand'
 }
@@ -222,7 +222,7 @@ export const HtmlInfo = {
     creator: 'Himanshu Sangwan',
     date: 'July 27, 2023',
     language: 'Eng',
-    image: '../assets/HTML.jpg',
+    image: '/assets/HTML.jpg',
     price: '₹599',
     toLearn: 'Structure and Semantics, Styling and Presentation, Practical Hands-on Experience'
 }
@@ -235,7 +235,7 @@ export const javascriptInfo = {
     creator: 'Himanshu Sangwan',
     date: 'July 27, 2023',
     language: 'Eng',
-    image: '../assets/JS.jpg',
+    image: '/assets/JS.jpg',
     price: '₹599',
     toLearn: 'Web Development Empowerment, Dynamic Web Content, Dynamic Web Content'
 }
@@ -248,7 +248,7 @@ export const pythonInfo = {
     creator: 'Himanshu Sangwan',
     date: 'July 27, 2023',
     language: 'Eng',
-    image: '../assets/JS.jpg',
+    image: '/assets/JS.jpg',
     price: '₹599',
     toLearn: 'Web Development Empowerment, Dynamic Web Content, Dynamic Web Content'
 }

@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { RouterProvider, Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import {Home, AboutUs, ContactUs, Login, SignUp} from './pages/index.js'
+import {Home, AboutUs, ContactUs, Login, SignUp, DashBoard} from './pages/index.js'
 import {Android, Java, HTML, JavaScript} from './components/Courses/index.js'
-
 
 
 const router = createBrowserRouter(
@@ -14,6 +13,7 @@ const router = createBrowserRouter(
             <Route path='' element={<Home />} />
             <Route path='about' element={<AboutUs />} />
             <Route path='contact' element={<ContactUs />} />
+            <Route path='dashboard' element={<DashBoard />} />
             <Route path='login' element={<Login />} />
             <Route path='signup' element={<SignUp />} />
             <Route path='android' element={<Android />} />

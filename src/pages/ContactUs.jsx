@@ -2,10 +2,9 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div>
-
-        
-    </div>
+    <main>
+      
+    </main>
   )
 }
 

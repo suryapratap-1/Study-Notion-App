@@ -11,8 +11,7 @@ import ExploreMore from '../components/UI Components/ExploreMore'
 
 const Home = () => {
 
-    const codeBlock1 = `
-        <<!DOCTYPE html>
+    const codeBlock1 = `<<!DOCTYPE html>
         <html>
         <head><title>Example</title>
         </head>
@@ -24,17 +23,15 @@ const Home = () => {
         </nav>
     `
 
-
     return (
-      <div>
         <div className='bg-[#000814]'>
           
           {/* Section 1 */} 
-          <section className='relative z-20 w-10/12 mx-auto pt-16 pb-10 '>
+          <section className='relative z-20 w-10/12 mx-auto pt-10 md:pt-16 pb-10 '>
             <div className='flex flex-col gap-6 items-center'>
               <NavLink to='signup'>
                 <button className='px-9 py-[5px] flex items-center gap-2 bg-[#161d29] text-white font-bold rounded-full border-4 
-                  border-[#161d29] hover:bg-[#000814]'
+                  border-[#161d29] hover:bg-[#000814] whitespace-nowrap'
                 >
                   Become an Instructor
                   <BiRightArrowAlt style={{fontSize: "1.5rem", fontWeight: "bolder"}}/>
@@ -59,7 +56,7 @@ const Home = () => {
                 of resources, including hands-on projects, quizzes, and personalized feedback from instructors.
               </h3>
 
-              <div className='flex gap-8'>
+              <div className='flex gap-5 md:gap-8 whitespace-nowrap'>
                 <NavLink to='signup'>
                   <button className=' bg-yellow-400 px-6 py-3 text-sm rounded-md font-semibold hover:scale-95 transition-all duration-200'>
                     Learn More
@@ -74,7 +71,7 @@ const Home = () => {
             </div>
             
             {/* video */}
-            <div className='relative z-10 mx-12 my-12 shadow-[20px_20px_0_0_#fff]
+            <div className='relative z-10 mx-2 my-12 shadow-[20px_20px_0_0_#fff]
                 sm:mx-10
                 md:mx-20
                 lg:mx-36
@@ -82,11 +79,10 @@ const Home = () => {
               <video muted loop autoPlay>
                 <source src='../assets/Home Page video.mp4' type='video/mp4' />
               </video>
-              <div className='absolute top-0 left-[50%] -z-[1] w-[75vw] h-[65vh] bg-cyan-400 blur-[70px] opacity-25
+              <div className='absolute top-0 left-[20%] md:left-[50%] -z-[1] w-[75vw] h-[65vh] bg-cyan-400 blur-[70px] opacity-25
                 sm:left-[45%] sm:w-[40vw] sm:h-[40vh]'>
               </div>
             </div>
-
 
           </section>
 
@@ -101,7 +97,7 @@ const Home = () => {
                   <p className='mt-12 pl-4 text-lg text-gray-500 font-semibold'>
                       Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you.
                   </p>
-                <div className='flex gap-8 mt-16 pl-4'>
+                <div className='flex gap-4 md:gap-8 mt-16 md:pl-4 whitespace-nowrap'>
                     <NavLink to='signup'>
                         <button className='flex gap-1 items-center bg-yellow-400 px-6 py-3 text-sm rounded-md font-semibold hover:scale-95 transition-all duration-200'>
                             Try it yourself
@@ -151,10 +147,10 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='mt-40 mx-32 flex flex-col gap-16'>
+            <div className=' mt-16 md:mt-40 mx-4 md:mx-32 flex flex-col gap-10 md:gap-16'>
               <h3 className=' text-3xl text-white font-bold'>Most Popular Courses</h3>
 
-              <div className=' coursesList p-2 flex gap-6 w-full overflow-y-hidden overflow-x-auto transition-all duration-200 '>
+              <div className='coursesList p-2 flex gap-6 w-full overflow-y-hidden overflow-x-auto transition-all duration-200 '>
                 {
                     popularCourses.map( (course) => (
                       <NavLink to={course.path} key={course.id}>
@@ -380,7 +376,6 @@ const Home = () => {
           </section>
 
         </div>
-      </div>
 
     )
 }
